@@ -1,4 +1,4 @@
-<h1> RSA EN-& DECRIPTION IN PYTHON </h1>
+<h1> RSA EN-& DECRIPTION IN PYTHON !!!(WIP)!!!</h1>
 
 <!-- Language Badges -->
 <p align="center">
@@ -14,7 +14,7 @@
 
 <h2>How it works</h2>
 <ul>
-    <li>insert p and q</li>
+    <li>keys: p and q</li>
     <li>n = p * q </li>
     <li>phi = (p-1) * (q-1)</li>
     <li>e = phi + _</li>
@@ -23,4 +23,12 @@
     </br>
     <li>Decoded Message = ((message ** e) % n)</li>
     <li>Encoded Message = ((message ** d) % n)</li>
+</ul>
+
+<h2>How do I use it?</h2>
+<ul>
+    <li>Define p and q</li>
+    <li>Write: e, d, n = RSA_KeyGenerator(p, q)</li>
+    <li>To decode a message: Decode(message, e, n)</li>
+    <li>To encode a message: Encode(message, d, n)</li>
 </ul>
