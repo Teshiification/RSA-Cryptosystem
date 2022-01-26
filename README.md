@@ -1,4 +1,4 @@
-<h1> RSA EN-& DECRIPTION IN PYTHON !!!(WIP)!!!</h1>
+<h1> RSA EN-& DECRIPTION IN PYTHON (WIP)</h1>
 
 <!-- Language Badges -->
 <p align="center">
@@ -13,6 +13,7 @@
 <p>RSA is also used for todays cryptosystems.</p>
 
 <h2>How it works</h2>
+<h3>The Math behind it</h3>
 <ul>
     <li>keys: p and q</li>
     <li>n = p * q </li>
